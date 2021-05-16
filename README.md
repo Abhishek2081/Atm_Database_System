@@ -1,5 +1,17 @@
 # SL1-E9-Atm_Database_System
 
-Note: The Project is Run on Eclipse and Connectivity is done using maven so ensure you have a stable internet connection and suitable jre version.
+The ATM-Database System is the project which is login based for user and used to access their bank accounts in order to make cash 
+withdrawals, display Account Balance, transfer Money and other operations. The ATM System is developed in JavaFX and a back-end 
+database as SQLIte. JavaFX is the one of the powerful versions of Java-Based Open Source Framework, Hence we used this software.
 
-The ATM System is the project which is used to access their bank accounts in order to make cash withdrawals. Whenever the user needs to make cash withdrawals, they can enter their PIN number (personal identification number) and it will display the amount to be withdrawn in the form of 100’s 500’s and 1000’s. Once their withdrawal was successful, the amount will be debited in their account. The ATM System is developed in VB.Net and a back-end database as Ms-Access. VB.Net is the one of the powerful versions of Framework and object oriented programming. Hence we use this software in our project. The ATM will service one customer at a time. A customer will be required to enter ATM Card number, personal identification number (PIN) – both of which will be sent to the database for validation as part of each transaction. The customer will then be able to perform one or more transactions. Also customers must be able to make a balance inquiry of any account linked to the card. The ATM will communicate each transaction to the database and obtain verification that it was allowed by the database. In the case of a cash withdrawal, a second message will be sent after the transaction has been physically completed (cash dispensed or envelope accepted). If the database determines that the customer’s PIN is invalid, the customer will be required to re-enter the PIN before a transaction can proceed. If a transaction fails for any reason other than an invalid PIN, the ATM will display an explanation of the problem, and will then ask the customer whether he/she wants to do another transaction. The ATM will provide the customer with a printed receipt for each successful transaction, showing the date, time, machine location, type of transaction, account(s), amount, and ending and available balance(s) of the affected account (“to” account for transfers).
+The ATM will service one customer at a time. A customer will be required to enter username, password – both of which will be sent 
+to the database for validation as part of each transaction. The customer will then be able to perform one or more transactions. 
+Also customers must be able to make a balance inquiry of any account linked to that Account. The ATM will communicate each transaction
+to the database and obtain verification that it was allowed by the database and display it on Screen. In the case of a cash withdrawal,
+a second message will be sent after the transaction has been completed (cash withdrawn). If the database determines that the customer’s 
+password is invalid, the customer will be required to re-enter the password before a transaction can proceed. If Transaction is failed 
+for any other reasons other than password it will be displayed on screen. The User can change Password by entering old Password and 
+validating new Password. There will be admin login so as to perform various transactions like add, remove, delete or update details 
+of the User from database as well as reset user Password and mail it to User Email-ID.
+
+**Note: The Project is Run on Eclipse and Connectivity is done using maven so ensure you have a stable internet connection and suitable jre version.**
