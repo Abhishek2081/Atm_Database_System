@@ -14,4 +14,4 @@ for any other reasons other than password it will be displayed on screen. The Us
 validating new Password. There will be admin login so as to perform various transactions like add, remove, delete or update details 
 of the User from database as well as reset user Password and mail it to User Email-ID.
 
-**Note: The Project is Run on Eclipse and Connectivity is done using maven so ensure you have a stable internet connection and suitable jre version.**
+**Note: The Project is Run on Eclipse and is Maven-based JavaFX Project so ensure you have a stable internet connection and suitable jre version.**
