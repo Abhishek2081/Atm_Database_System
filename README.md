@@ -1,4 +1,4 @@
-# SL1-E9-Atm_Database_System
+# Atm_Database_System
 
 The ATM-Database System is the project which is login based for user and used to access their bank accounts in order to make cash 
 withdrawals, display Account Balance, transfer Money and other operations. The ATM System is developed in JavaFX and a back-end 
